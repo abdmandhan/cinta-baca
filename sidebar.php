@@ -24,12 +24,6 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="manajemen-pegawai.php">
-                            <i class="nc-icon nc-credit-card"></i>
-                            <p>Manajemen Pegawai</p>
-                        </a>
-                    </li>
-                    <li>
                         <a class="nav-link" href="manajemen-anggota.php">
                             <i class="nc-icon nc-credit-card"></i>
                             <p>Manajemen Anggota</p>

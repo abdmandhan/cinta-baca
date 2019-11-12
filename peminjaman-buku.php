@@ -28,7 +28,23 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="section">
-                        asdf
+                    <form action="peminjaman-cari.php" method="POST">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                            <label for="inputEmail4">Id Anggota</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Id Anggota" name="id_anggota">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <label for="inputPassword4">Id Buku</label>
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="Id Buku" name="id_buku">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary">Cari</button> 
+                            </div>
+                        </div>
+                    </form>
                     </div>
                 </div>
             </div>
